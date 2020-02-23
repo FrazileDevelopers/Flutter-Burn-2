@@ -23,6 +23,8 @@ class _FlutterBurnState extends State<FlutterBurn> {
         //   title: Text('Flutter Burn 2'),
         // ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
           children: <Widget>[
             Image.network(
               'https://images.unsplash.com/photo-1581888517319-570283943d82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1050&q=80',
@@ -31,8 +33,11 @@ class _FlutterBurnState extends State<FlutterBurn> {
             Column(
               children: <Widget>[
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
                           'Parth Aggarwal',
@@ -53,6 +58,7 @@ class _FlutterBurnState extends State<FlutterBurn> {
                   ],
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Column(
                       children: <Widget>[
